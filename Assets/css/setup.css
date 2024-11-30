@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    font-family: "Nunito Sans";
+}
+:root{
+    --white:#ffffff;
+    --dark:#10151c;
+    --primary:#ff414d;
+    --gray:#b8b9bb;
+    --skyground:#f0f4f7;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+html.sr .text-reveal {
+    visibility: hidden;
+    
+}
