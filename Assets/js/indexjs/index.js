@@ -37,13 +37,29 @@ const textRevealTextOptions ={
 
 
 ScrollReveal().reveal(textReveal,textRevealTextOptions);
-
-ScrollReveal().reveal(cardReveal[0],{ delay: 400,distance: '200px',origin: 'bottom',reset: true});
-ScrollReveal().reveal(cardReveal[1],{ delay: 500,distance: '200px',origin: 'bottom',reset: true});
-ScrollReveal().reveal(cardReveal[2],{ delay: 600,distance: '200px',origin: 'bottom',reset: true});
-ScrollReveal().reveal(cardReveal[3],{ delay: 800,distance: '200px',origin: 'bottom',reset: true});
+ScrollReveal().reveal(cardReveal[0],{ delay: 300,distance: '200px',origin: 'bottom',reset: true,rotate: {
+    x: 40,
+    y: 40,
+    z: 40,
+}});
+ScrollReveal().reveal(cardReveal[1],{ delay: 400,distance: '200px',origin: 'bottom',reset: true,rotate: {
+    x: 40,
+    y: 40,
+    z: 40,
+}});
+ScrollReveal().reveal(cardReveal[2],{ delay: 500,distance: '200px',origin: 'bottom',reset: true,rotate: {
+    x: 40,
+    y: 40,
+    z: 40,
+}});
+ScrollReveal().reveal(cardReveal[3],{ delay: 600,distance: '200px',origin: 'bottom',reset: true,rotate: {
+    x: 40,
+    y: 40,
+    z: 40,
+}});
 
 for(let i=0;i<listingCardReveal.length;i++){
-    ScrollReveal().reveal(listingCardReveal[i],{ delay: 400,distance: '100px',origin: 'left',reset: true});
-
+    ScrollReveal().reveal(listingCardReveal[i],{ delay: 300,distance: '300px',origin: 'left',reset: true});
 }
+
+
