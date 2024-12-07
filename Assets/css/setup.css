@@ -23,7 +23,7 @@ html.sr .text-reveal {
     overflow: hidden !important;
 }
 .nav{
-    position: sticky;
+    position: fixed;
     top: 0px ;
     right: 0px ;
     width: 100%;
@@ -31,6 +31,7 @@ html.sr .text-reveal {
     background-color: transparent;
     z-index: 99;
     transition: 500ms;
+    color: var(--white);
 }
 .navbar-brand{
     display: flex;
@@ -41,6 +42,7 @@ html.sr .text-reveal {
     padding: 0px !important;
     font-weight: 700;
     font-size: 31px;
+    color: var(--white);
 }
 
 
@@ -48,7 +50,7 @@ html.sr .text-reveal {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-
+    color: var(--white);
 }
 .nav-link{
     display: block;
@@ -57,12 +59,21 @@ html.sr .text-reveal {
     font-size: 13px ;
     font-weight: 700 !important;
     letter-spacing: 2px ;
-    color: rgba(255, 255, 255, 0.7);
+    transition: 300ms; 
+    color: var(--gray);
+}
+.nav-link:hover{
+    color: red !important; 
+    letter-spacing: 3px ;
+}
+.active{
+    color: var(--white) !important;
 }
 .add-listing-btn{
     background-color: var(--primary);
     color: var(--white);
-    font-size: 15px;
+    font-size: 12px;
+    padding: 10px 20px ;
 }
 
 .add-listing-btn:hover {
@@ -73,3 +84,17 @@ color: var(--primary);
 .lorem-text{
     color: var(--gray);
 }
+
+
+.nav-scroll{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 16px 16px ;
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.nav-scroll:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+
