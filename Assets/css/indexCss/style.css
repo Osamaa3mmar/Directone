@@ -338,4 +338,140 @@ footer .lorem-text{
     .footer-start ul {
         width: 50%;
     }
+    .wish-card{
+        min-width: 70%;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+.wish{
+    padding: 150px 0px ;
+    text-align: center;
+
+}
+.wish-card{
+    background-color:#f0f4f7 ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    max-width: 231px;
+    margin-right: 24px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: auto;
+}
+.wish-card:hover::after{
+    scale: 2;
+    opacity: 0.8;
+}
+.wish-card::after{
+    position: absolute;
+    content: " ";
+    width: 100px ;
+    height: 100px ;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: -30px;
+    right: -30px ;
+    transition: 600ms ;
+    opacity: 0;
+    
+}
+.wish-card:hover{
+    background-color: var(--primary);
+}
+.wish-card:hover i{
+    background-color: var(--white);
+    color: var(--primary);
+}
+.wish-card:hover p,
+.wish-card:hover h3{
+    color: var(--white);
+}
+.wish-card i{
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: var(--primary);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: 200ms;
+}
+
+.wish-card p{
+    padding-bottom: 50px;
+}
+.offers{
+    padding: 130px 0px ;
+    background-color: var(--skyground);
+   
+}
+.offers .row{
+    background: repeating-linear-gradient(
+        to bottom right,
+        #ff414d 0%,
+        #ff414d 2%,
+        #f03943 2%,
+        #f03943 4%
+      );
+      padding: 0px !important;
+}
+
+.offers .col-lg-4,
+.offers .col-lg-5,
+.offers .col-lg-3{
+
+display: flex;
+align-items: center;
+
+}
+.offer-btn{
+    justify-content: center;
+    
+}
+
+.Listing{
+    background-color: var(--skyground);
+}
+.offers-btn{
+    font-size: 12px ;
+    padding: 16px 24px ;
+    font-weight: 600;
+}
+
+.offer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+  
+    padding: 48px 24px 48px 48px ;
+    color: var(--white);
+}
+.offer-text h2{
+    font-weight: 800;
+    
+}
+.offer-text h4{
+    width: 100%;
+  margin-bottom: 10px;
+  color: var(--white);
+  font-size: 16px ;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.offers img{
+    width: 100%;
+    height: 270px;
+   margin: 0px;
+   align-self: start;
 }

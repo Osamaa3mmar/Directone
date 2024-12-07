@@ -69,3 +69,7 @@ html.sr .text-reveal {
 border-color:var(--primary) ;
 color: var(--primary);
 }
+
+.lorem-text{
+    color: var(--gray);
+}
