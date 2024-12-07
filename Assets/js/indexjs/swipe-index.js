@@ -15,18 +15,18 @@ const swiper = new Swiper('.swiper', {
       slidesPerGroup: 3,
       breakpoints: {
         // when window width is >= 320px
-        500: {
+        100: {
           slidesPerView: 1,
           slidesPerGroup: 1,
         },
         // when window width is >= 480px
-        720: {
+        800: {
           slidesPerView: 2,
           spaceBetween: 30,
           slidesPerGroup: 2,
         },
         // when window width is >= 640px
-        900: {
+        1000: {
           slidesPerView: 3,
           spaceBetween: 20
         }
