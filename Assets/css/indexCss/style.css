@@ -9,7 +9,8 @@
     flex-direction: column;
 }
 
- .top .section-name{
+ .top .section-name,
+ .paris .section-name{
     margin: 0px;
     padding: 10px;
     color: var(--primary);
@@ -341,6 +342,12 @@ footer .lorem-text{
     .wish-card{
         min-width: 100%;
         margin-bottom: 20px !important;
+    }
+    .paris .col-5{
+        display: none !important;
+    }
+    .numbers-card .num-card{
+        width: 100%;
     }
 }
 
@@ -734,4 +741,146 @@ color: var(--primary)!important;
 }
 .page-link{
     color: var(--primary) !important;
+}
+
+
+
+
+.paris{
+    background-color: var(--white);
+    padding: 50px 0px ;
+}
+
+
+.paris .col-7{
+padding: 96px 24px ;
+}
+.paris h2{
+    font-size: 50px ;
+    font-weight: 700;
+    margin-bottom: 24px ;
+
+}
+.paris .lorem-text{
+    margin-bottom: 30px;
+}
+
+.numbers-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px 10px ;
+}
+
+.numbers-card .num-card{
+    background-color: var(--skyground);
+    padding: 30px 20px ;
+    height: 148px;
+    width: 20%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+
+.num-card h3{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 990px) {
+    .numbers-card .num-card{
+    width: 80%;
+    }
+    
+.form-container .col-start{
+display: none;
+}
+}
+
+
+
+
+.form-container .col-end{
+    display: flex;
+    flex-direction: column;
+    padding: 48px ;
+}
+.form-container .col-end .headder{
+font-size: 30px ;
+font-weight: 700;
+}
+.form-container .col-end .lorem-text{
+    margin-bottom: 25px;
+}
+
+.form-container .col-end .list{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-bottom: 30px ;
+    
+
+}
+.form-container .col-end .list .list-item{
+    width: 33%;
+  
+}
+
+.form-container .col-end .list .list-item .title{
+text-transform: uppercase;
+font-size: 14px ;
+font-weight: 600;
+}
+
+
+
+.form-container .col-end .form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px ;
+
+}
+.form-container .col-end .form input,
+.form-container .col-end .form textarea{
+    border: none ;
+    border-bottom: 1px var(--gray) solid ;
+    border-radius: 2px ;
+    padding: 10px 0px ;
+    font-size: 14px ;
+}
+
+.form-container .col-end .form input:focus,
+.form-container .col-end .form textarea:focus{
+    outline: none;
+    border-bottom: 1px var(--primary) solid ;
+
+}
+
+.form-container .col-end .form button{
+    color: var(--white);
+    width: fit-content;
+    font-size: 12px ;
+    font-weight: 600;
+    padding: 9px 12px ;
+    border: none ;
+    background-color: var(--primary);
+    border-radius: 4px ;
+    margin-bottom: 40px ;
+}
+
+
+
+.form-container .col-end .form .follow h6{
+    text-transform: uppercase;
+    font-size: 14px ;
+    font-weight: 600;
+}
+ .list a{
+color: black ;
+text-transform: uppercase;
+
+}
+.list a:hover{
+    color: var(--primary);
 }
