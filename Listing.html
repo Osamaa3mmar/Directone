@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./Assets/css/setup.css">
+    <link rel="stylesheet" href="./Assets/css/indexCss/style.css">
+    <link rel="stylesheet" href="./Assets/css/indexCss/listing-card.css">
+    <link rel="stylesheet" href="./Assets/css/indexCss/swiper.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <div class="brand-name">
+                    <h1 class="brand-logo">
+                    Directone
+                    </h1> <p class="brand-text">Directory and Listing</p></div></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./About.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./Listing.html">Listing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Blog.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn add-listing-btn" type="submit"><i class="fa-solid fa-plus"></i>ADD LISTING</button>
+                      </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+<main>
+
+
+    <section class="main-section" style="height: 700px; background: url('./Assets/public/img/headder/bg_3.jpg'); background-size: cover; background-attachment:fixed ;">
+        <div class="container">
+          <p class="lorem-text z-1 " style="font-weight: 700; margin-bottom: 30px ;  color: var(--gray)"><a href="./index.html" class="mapc" style="color: var(--gray) ;">Home<i class="fa-solid fa-chevron-right"></i></a> Listing <i class="fa-solid fa-chevron-right"></i></p>
+            <h2>Our Listing</h2>
+            
+            
+            <div class="blk" style="height: 120%;"></div>
+        </div>
+        </section>
+
+        <section class="main-card">
+          <div class="container-osama">
+            <div class="row">
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-bowl-food"></i>
+                  <h3 class="title">
+                      Food & Drink
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint card-contint-active">
+                  <i class="fa-solid fa-hotel"></i>            <h3 class="title">
+                    Hotels
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <h3 class="title">
+                      Shopping
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-umbrella-beach"></i>            <h3 class="title">
+                     Beauty
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-bicycle"></i>            <h3 class="title">
+                      Fitness
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-gamepad"></i>            <h3 class="title">
+                      Games
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-location-dot"></i>            <h3 class="title">
+                      Places
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-circle-nodes"></i>            <h3 class="title">
+                      Circus
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-masks-theater"></i>            <h3 class="title">
+                      Theater
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-medal"></i>            <h3 class="title">
+                      Sports
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-user-doctor"></i>            <h3 class="title">
+                      Health
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12 card-contint">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <h3 class="title">
+                      Shopping
+                  </h3>
+                  <p><span>100</span> Listings</p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+        <!--  !End: Our Listing   -->
+<section class="Listing">
+  <div class="container">
+      <div class="top">
+          <p class="text-reveal section-name">
+              Listing
+          </p>
+          <h3 class=" text-reveal">Our Listing</h3>
+      </div>
+      <div class="listing-cards">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image1">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Beauty</span>
+                          <h3 class="listion-title">Japanese Restaurant</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image2">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Bar & Club</span>
+                          <h3 class="listion-title">Harbor Lights Hotel</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image3">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Circus</span>
+                          <h3 class="listion-title">MS Center Mall of Asia</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image4">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Theater</span>
+                          <h3 class="listion-title">Maxout Fitness Gym</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image5">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Theater</span>
+                          <h3 class="listion-title">Japanese Restaurant</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image6">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Sports</span>
+                          <h3 class="listion-title">Harbor Lights Hotel</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image7">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Games</span>
+                          <h3 class="listion-title">MS Center Mall of Asia</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="listing-card shadow">
+                      <div class="listing-image list-image8">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="bottom">
+                      <div class="listing-info">
+                          <i class="icon-tag fa-solid fa-bowl-food"></i>
+                          <span class="listing-tag">Places</span>
+                          <h3 class="listion-title">Maxout Fitness Gym</h3>
+                          <div class="listing-location">
+                              <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                              <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                          </div>
+                      </div>
+                      <div class="listing-review">
+                          <div class="review-value">
+                              <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                              </p>
+                              <i class="fa-regular fa-heart"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image1">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Beauty</span>
+                        <h3 class="listion-title">Japanese Restaurant</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Bar & Club</span>
+                        <h3 class="listion-title">Harbor Lights Hotel</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Circus</span>
+                        <h3 class="listion-title">MS Center Mall of Asia</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Theater</span>
+                        <h3 class="listion-title">Maxout Fitness Gym</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image5">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Theater</span>
+                        <h3 class="listion-title">Japanese Restaurant</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image6">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Sports</span>
+                        <h3 class="listion-title">Harbor Lights Hotel</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image7">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Games</span>
+                        <h3 class="listion-title">MS Center Mall of Asia</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="listing-card shadow">
+                    <div class="listing-image list-image8">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bottom">
+                    <div class="listing-info">
+                        <i class="icon-tag fa-solid fa-bowl-food"></i>
+                        <span class="listing-tag">Places</span>
+                        <h3 class="listion-title">Maxout Fitness Gym</h3>
+                        <div class="listing-location">
+                            <p class="lorem-text"><i class="fa-solid fa-location-dot"></i>Suite 721 New York NY 10016</p>
+                            <p class="lorem-text"> <i class="fa-solid fa-phone"></i>+00 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="listing-review">
+                        <div class="review-value">
+                            <p class="lorem-text">Review <span class="review-num">5.0/5 <i class="fa-solid fa-star"></i> (100)</span>
+                            </p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+            <nav aria-label="Page navigation example ">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item mx-2 fa-2"><a class="page-link" href="#">1</a></li>
+                <li class="page-item mx-2 fa-2"><a class="page-link" href="#">2</a></li>
+                <li class="page-item mx-2 fa-2"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+  </div>
+</section>
+<!--  !End: Our Listing   -->
+    </main>
+
+
+
+
+
+<!--!Done:Footer-->
+<footer >
+  <div class="container">
+   <div class="row">
+       <div class="footer-start col-lg-3 col-sm-12 my-5">
+           <a href="./index.html" class="logolink">
+               <h3 class=" logo-name">Directone</h3>
+               <p class=" logo-text">Directory and Listing</p>
+           </a>
+           <p class="lorem-text">
+               A small river named Duden flows by their place and supplies it with the necessary regelialia.
+           </p>
+           <ul class="rounded-pill">
+               <li><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+               <li><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+               <li><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+           </ul>
+
+       </div>
+
+
+
+
+
+
+       <div class="footer-mid col-lg-6 col-sm-12 my-5">
+           <div class="row">
+               <div class="footer-list col-lg-4 col-md-6 col-sm-12">
+                   <h4>Explore</h4>
+                   <ul>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>About Us</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Account</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Listing</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Pricing Packages</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Pricing Packages</a></li>
+                   </ul>
+               </div>
+               <div class="footer-list col-lg-4 col-md-6 col-sm-12">
+                   <h4>Quick Links</h4>
+                   <ul>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Terms & Conditions</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Privacy</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Feedbacks</a></li>
+                   </ul>
+               </div>
+               <div class="footer-list col-lg-4 col-md-6 col-sm-12">
+                   <h4>Categories</h4>
+                   <ul>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Food & Drinks</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Hotels</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Shopping</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Beauty</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Fitness</a></li>
+                       <li><a href="#"><i class="fa-solid fa-angle-right"></i>Bar & Club</a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+       <div class="footer-end col-lg-3 col-md-6 col-sm-12 my-5">
+           <h4>Have a Questions?</h4>
+           <ul>
+               <li><i class="fa-solid fa-map"></i><p class="lorem-text">	203 Fake St. Mountain View, San Francisco, California, USA</p></li>
+               <li><a href="#"><i class="fa-solid fa-phone"></i>+2 392 3929 210</a></li>
+               <li><a href="#"><i class="fa-solid fa-paper-plane"></i>info@yourdomain.com</a></li>
+           </ul>
+       </div>
+   </div>
+  </div>
+</footer>
+<!--!Done:End Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./Assets/js/indexjs/swipe-index.js"></script>
+    <script src="./Assets/js/all.js"></script>
+    <script src="./Assets/js/indexjs/index.js"></script>
+</body>
+</html>
